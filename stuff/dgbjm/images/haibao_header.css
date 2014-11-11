@@ -1,0 +1,141 @@
+@charset "utf-8";
+*html{
+background-image:url(about:blank);
+background-attachment:fixed;
+}
+/**include header_type3.css**/
+.top_dl{ margin:0px; padding:0px; height:30px; text-align:right;padding: 4px 10px 5px 0px; color:#000}
+.top_dl a{ margin:0px 8px;color:#000}
+/****top导航*******/
+.top_nav{  margin:0 auto; height:90px; background:#fff; border:#cfcfcf 1px solid; border-bottom:none}
+.nav_bj{ background:url(http://img.liansuo.com/html/images/zhuanti/nav_bj.jpg) no-repeat right; height:70px; width:4px;}
+.ztmb_lg{ padding:7px 0px 8px 8px;}
+.top_navrg ul{ float:left}
+.top_navrg ul li{ float:left; font-size:12px; line-height:23px;}
+.nav_ul{ width:90px;}
+.nav_ul2{ width:180px; padding-left:13px;}
+.nav_ul2 li{ width:35px;}
+.nav_ul3{ width:110px; padding-left:13px;}
+.nav_ul3 li{ width:35px;}
+.nav_ul4{ width:130px; padding-left:13px;}
+.ul4{ width:35px;}
+.ul4s{ width:50px;}
+.nav_ul5{ width:170px; padding-left:13px;}
+.nav_ul6{ width:35px; padding-left:13px;}
+.nav_ul6 li{ width:35px;}
+/********电话和搜索*******/
+.top_navbot{ margin:0 auto;padding: 5px 5px 5px 15px; height:25px; background:#eee; border:#c6c6c6 1px solid;}
+.nav_ph{ background:url(http://img.liansuo.com/html/images/zhuanti/ztmb_ph.jpg) no-repeat left ; height:25px; padding-left:21px;width:265px;font-size:14px; line-height:24px; color:#cc0000;}
+.nav_ph span{font-size:15px; line-height:24px; color:#333 }
+.sbmt{ background:url(http://img.liansuo.com/html/images/zhuanti/ztmb_ann.jpg) no-repeat; width:75px; height:25px; margin-left:5px;border: medium none;}
+.button{ background:url(http://img.liansuo.com/html/images/zhuanti/ztmb_anniu.jpg) no-repeat; width:75px; height:25px;border: medium none; margin-left:5px}
+.selss{ width:90px;}
+.nav_input{ width:650px;display:block;}
+.nav_input select{ width:105px; display:block; float:left; height:22px; line-height:22px; margin-right:5px; font-size:12px; margin-top:2px; padding-top:2px;}
+.ipw{ width:110px; display:block; float:left;  height:20px;_height:16px;_line-height:16px; line-height:20px;font-size:12px; margin-top:2px; _margin-top:2px;}
+/**!--include header_type3.css**/
+
+	/******头部项目资料电话部分********/
+.G_hy_top{  height:85px; border:1px solid #ccc; margin:auto; padding:15px 15px 10px 25px; background:url(http://img.liansuo.com/html/images/yp/hy_topbj.jpg) repeat-x;}
+.G_hy_toplt {
+  height: 80px;
+  margin-right:10px;
+  width: 224px;
+}
+.G_hy_toplt dt {
+  float: left;
+  margin-right: 9px;
+}
+.G_hy_toplt dd {
+  float: left;
+  height: 31px;
+  margin: 4px 0;
+}
+/*.G_hy_topH1{ font-size:14px; color:#666; width:480px; line-height:28px; overflow:hidden}
+.G_hy_topH1 dt{   color: #666666;  font-size: 14px;  line-height: 28px; height: 28px;  overflow: hidden;  width: 480px;}*/
+.G_hy_topH1 h1{ font-size:14px; color:#333; float:left; display:inline; line-height:28px;}
+.G_hy_topH1 span{ color:#e70012; float:left; display:inline; line-height:28px;font-size:14px; font-weight:bold}
+.G_hy_topsp{ width:410px;}
+.G_hy_topsp dt{ width:60px; font-size:12px; color:#981c04; float:left}
+.G_hy_topsp .hy_dd{ width:140px;}
+.G_hy_topsp dd,.G_hy_topsp dt{ line-height:26px; height:26px; overflow:hidden}
+.G_hy_topsp span a{font-size:12px; color:#981c04; }
+/*电话*/
+.G_hy_phos {
+  background:url(http://img.liansuo.com/html/images/yp/lyb_20.jpg) no-repeat;
+  width: 180px;
+  height:84px;
+  padding-left:80px;
+}
+.G_lly_rg_p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}.G_lly_rg_ps {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}.G_lly_rg_ps .clorsp {
+  color: #A40000;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+}
+.G_lly_rg_ps .clorsps {
+  color: #FF6600;
+  font-size: 22px;
+  font-weight: bold;
+  line-height:24px;
+  text-align: center;
+}
+
+
+/*电话结束*/  
+/*********导航菜单************/
+.G_hy_nav{ border:1px solid #ccc; height:50px; margin:auto;}
+.G_hy_nav ul { background:#ececec; height:43px; width:100%;}
+.G_hy_nav ul .lis{ font-size:18px; font-weight:bold; float:left; padding:0px 18px 0 19px; _padding:0px 18px;border-right:1px solid #bdbcbd; background:#ececec; text-align:center;  line-height:43px;}
+.G_hy_nav ul .lis a{ color:#000;}
+.G_hy_nav ul .libk{ background:#cc0000; height:43px; }
+.G_hy_nav ul .libk a{ color:#fff;}
+.G_hy_nav ul .lisv{ border-right:none;}
+.Topnav_floatL {
+  display: inline;
+  float: left;
+  height: 23px;
+  padding-top: 7px;
+  text-align: left;
+  width: 200px;
+}
+.hd {
+  display: none;
+}
+.fixed-case {
+  _top:expression(eval(document.documentElement.scrollTop));
+  _position:absolute;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+
+/*2014-05-23修改*/
+
+.G_hy_topH1{ font-size:14px; color:#666; width:435px; line-height:28px; overflow:hidden}
+.G_hy_topH1 dt{   color: #666666;  font-size: 14px;  line-height: 28px; height: 28px;  overflow: hidden;  width: 435px;}
+/*2014-06-17页头修改*/
+.liansuo-textM{overflow: hidden;padding:0 0 0 35px;height:108px;border:1px solid #d6d6d6; border-bottom:none;position: relative;zoom:1;}
+.liansuo-textM ul{background:url(http://img.liansuo.com/html/images/c/header-projects3.png);margin:0;height:108px;}
+.liansuo-textM ul li{width:16.6%;border-left: 1px solid #e5e5e5;float: left;vertical-align: bottom;height: 27px;line-height: 27px;overflow: hidden;white-space: nowrap;margin-right: -1px;}
+.liansuo-textM ul li a{padding:0 0 0 15px; background:url(http://img.liansuo.com/html/images/c/dh_dian.png) no-repeat 7px center; display:block;overflow: hidden;margin-right: 8px;}
+.liansuo-textM ul .red a{color:#ff0000;}
+.liansuo-textM ul li a:hover{color:#990000;}
+.liansuo-textM ul li{ width:19.9%;}
+.liansuo-pptj{position: absolute;left: 0px;padding-top:22px;top: 0;width: 35px;background-color:#FFFFFF;height:85px;border-right: 1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;text-align: center;zoom:1;overflow: hidden;vertical-align: middle;}
+.liansuo-textM .zoom li a{font-size:12px;}

@@ -1,0 +1,2 @@
+##文件说明
+* GetAllLinksAndScriptsInIndexFile.js:在index.html文件中获得所用有用的style的links和scripts的链接

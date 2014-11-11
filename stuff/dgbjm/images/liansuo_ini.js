@@ -1,0 +1,6 @@
+var __bid=0;document.cookie = "__bannerID=0;expies=10000;path=/;domain=liansuo.com";if(document.cookie.indexOf('__bid=')>-1){var tempstr=document.cookie.substr(document.cookie.indexOf('__bid=')+6,document.cookie.length);if(tempstr.indexOf(';')>-1){__bid=tempstr.substr(0,tempstr.indexOf(';'));}else{__bid=0;}document.cookie = "__bannerID=" + __bid +";expies=10000;path=/;domain=liansuo.com";}document.cookie = "__bid=0;expies=10000;path=/;domain=liansuo.com";function BIDF(bid){document.cookie = "__bid=" + escape (bid) +";expies=10000;path=/;domain=liansuo.com";}//广告统计
+if (typeof jQuery == 'undefined') {document.writeln("<script src=\"http:\/\/www.liansuo.com\/html\/js\/jquery1.7.2.min.js\" type=\"text\/javascript\"><\/script>");}//判断jquery是否存在没有则加载
+if(typeof Boxy =='undefined'){
+	document.writeln("<link href=\"http:\/\/www.liansuo.com\/html\/style\/dialog.css\" type=\"text\/css\" rel=\"stylesheet\">");
+	document.writeln("<script type=\"text\/javascript\" src=\"http:\/\/www.liansuo.com\/html\/js\/jquery.boxy.dialog.js\" defer=\"defer\"><\/script>");
+}
